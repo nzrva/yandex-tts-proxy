@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   const response = await fetch("https://tts.api.cloud.yandex.net/speech/v1/tts:synthesize", {
     method: "POST",
     headers: {
-      "Authorization": `Api-Key ${apiKey}`,
+      "Authorization": `AQWJbjp64T3Vw-B0SW_6X9GfxSl2ss-lZDhRzssh`,
       "Content-Type": "application/x-www-form-urlencoded"
     },
     body: new URLSearchParams({
